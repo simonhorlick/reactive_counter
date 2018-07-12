@@ -55,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             StreamBuilder<int>(
               stream: bloc.counter,
+              initialData: 0,
               builder: (context, snapshot) => Text(
                     '${snapshot.data}',
                     style: Theme.of(context).textTheme.display1,
