@@ -1,8 +1,5 @@
 # reactive_counter
 
-A new Flutter project.
+An extremely basic example of the bloc pattern as applied to the standard
+counter example.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
